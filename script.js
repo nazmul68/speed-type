@@ -126,7 +126,8 @@ const start = () => {
       startTime = new Date().getTime();
     }
     count--;
-  }, 500);
+  }, 1000);
+  // remove 0 after click on start button second time
   countdownOverlay.textContent = "";
 };
 
