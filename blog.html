@@ -20,8 +20,7 @@
     </header>
     <main>
         <!-- Acordion  -->
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-
+        <div class="accordion accordion-flush w-75 mx-auto" id="accordionFlushExample">
             <div class="accordion-item p-3">
                 <h2 class="accordion-header" id="flush-headingOne">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -53,6 +52,44 @@
                         <p>The main difference between Global and local scope is that <b>global scope</b> can be
                             accessed globally in the entire program, whereas <b>block scope</b> restricts the variable
                             that is declared inside a specific block, from access by the outside of the block.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item p-3">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <span class="text-info fw-semibold">How does work JS Event Loop work?</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>The <b>Event Loop</b> has one simple job — to monitor the Call Stack and the Callback Queue.
+                            If the Call Stack is empty, the Event Loop will take the first event from the queue and will
+                            push it to the Call Stack, which effectively runs it. Such an iteration is called a
+                            <b>tick</b> in
+                            the Event Loop.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item p-3">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        <span class="text-info fw-semibold">How do I get undefined in JavaScript?</span>
+                    </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <p>We will get <b>undefined</b> value when we call a non-existent property or method of an
+                            object. In
+                            the above example, if a function does not return any result but still we try to assign its
+                            resulted value to a variable. So in this case, result will be undefined. A method or
+                            statement also returns undefined if the variable that is being evaluated does not have an
+                            assigned value.</p>
                     </div>
                 </div>
             </div>
